@@ -231,7 +231,7 @@ First, you need to create a new data frame of values that contain ALL NECESSARY 
 # Note that the df_new created below has the SAME variable names and level strings as the original model data (otherwise R won't know how to use it...)
 # Work through this on your own to figure out what it actually does:
 
-df_new <- data.frame(City = rep(c("San Luis Obispo",
+df_new <- data.frame(City = rep(c("San Luis Obispo", # rep = repeat
                                   "Santa Maria-Orcutt",
                                   "Atascadero",
                                   "Arroyo Grande"), 
